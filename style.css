@@ -26,3 +26,12 @@ span{
 .oleh{
     padding-top: 1.2rem;
 }
+.navbar-brand p
+{
+    margin-top: 0.8rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+.angka{
+    font-weight: 700;
+}
