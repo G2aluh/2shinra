@@ -2,6 +2,19 @@
     --primary: rgb(0, 146, 151); 
 }
 
+/* Tambahkan ini ke style.css Anda */
+.fade-in {
+    opacity: 0;
+    transform: translateY(3.5rem);
+    transition: opacity 2.5s ease-out, transform 2s ease-out;
+  }
+  
+  .fade-in.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+
 .jumbotron{
     padding-top: 6rem;
     background-color: rgba(0, 146, 151, 0.171);
